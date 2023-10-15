@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Varela+Round&display=swap');
+*{
+    margin: 0;padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.gameMenu{
+    text-align: center;
+    margin: 10px 0;
+}
+.snakeArea{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 4px;
+    /* overflow: hidden; */
+}
+.snakeSize *{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+#food{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(144, 0, 255,0.2);
+    background-color: rgb(144, 0, 255);;
+}
